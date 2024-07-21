@@ -20,10 +20,10 @@ const ChatInput = ({ chatId }: Props) => {
 
   // useSWR to get model
   // Using the same key allows you to share data among
-  // different components!1
+  // different components
 
   const { data: model } = useSWR("model", {
-    fallbackData: "text-davinci-003",
+    fallbackData: "gpt-3.5-turbo-1106",
   })
 
   const sendMessage = async (e: FormEvent<HTMLFormElement>) => {
