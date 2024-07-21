@@ -61,7 +61,7 @@ const HomePage = () => {
               May occasionally produced harmful instructions or biased content
             </p>
             <p className="infoText">
-              Limited knowledge of world & events after 2021
+              Limited knowledge of world & events after 2023
             </p>
           </div>
         </div>
